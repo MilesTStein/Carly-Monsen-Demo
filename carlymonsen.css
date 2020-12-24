@@ -1,0 +1,25 @@
+/*---styles---*/
+
+body {
+	background-color: #FFFAF0;
+	color: #bf935a;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #CCFFEE;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #b30000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ffe4e1;
+  color: #b30000;
+}

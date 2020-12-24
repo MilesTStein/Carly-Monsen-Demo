@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Carly Monsen's Website</title>
+		<link href='https://fonts.googleapis.com/css?family=Cherry Swash' rel='stylesheet'>
+		<link rel ="stylesheet" href="css/carlymonsen.css"/>
+<style>
+body {
+    font-family: 'Cherry Swash';font-size: 22px;
+}
+</style>
+</head>
+
+<body>
+	<header>
+		<div class="topnav">
+			<h1>Carly Monsen's Website</h1>
+  			<a href="#">Link</a>
+  			<a href="#">Link</a>
+  			<a href="#">Link</a>
+		</div>
+	</header>
+
+	<main>
+		<script>
+			var i = 0;//start point
+			var images = [];
+			var time = 3000;
+
+			//Image List//
+			images[0] = 'image1.jpg';
+			images[1] = 'image2.jpg';
+			images[2] = 'image3.jpg';
+
+			//Change Image//
+			function changeImg(){
+				document.slide.src = images[i];
+
+				if(i < images.length - 1){
+					i++;
+				} else {
+					i = 0;
+				}
+
+				setTimeout("changeImg()", time);
+			}
+
+			window.onload = changeImg;
+
+
+		</script>
+
+		<img name="slide" width="400" height="400">
+
+	</main>
+
+
+</body>
+
+
+</html>
