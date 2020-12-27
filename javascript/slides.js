@@ -8,11 +8,11 @@ window.addEventListener("load",function() {
     showSlides(slideIndex);
     myTimer = setInterval(function(){plusSlides(1)}, 4000);
   
-    // //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-    // slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
+    //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
+    slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
   
     //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-    slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
+    // slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
   
     slideshowContainer.addEventListener('mouseenter', pause)
     slideshowContainer.addEventListener('mouseleave', resume)
@@ -29,12 +29,12 @@ function plusSlides(n){
   
   //COMMENT OUT THE LINES BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
   
-//   if (n === -1){
-//     myTimer = setInterval(function(){plusSlides(n + 2)}, 4000);
-//   } else {
-//     myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
-//   }
-// }
+  if (n === -1){
+    myTimer = setInterval(function(){plusSlides(n + 2)}, 4000);
+  } else {
+    myTimer = setInterval(function(){plusSlides(n + 1)}, 4000);
+  }
+}
 
 //Controls the current slide and resets interval if needed
 function currentSlide(n){
