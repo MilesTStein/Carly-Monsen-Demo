@@ -4,6 +4,10 @@ body {
 	background-color: #FFFAF0;
 	color: #bf935a;
 }
+.title {
+  float: left;
+
+}
 
 .topnav {
 	overflow: hidden;
