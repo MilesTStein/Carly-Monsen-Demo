@@ -5,6 +5,7 @@
 		<title>Carly Monsen's Website</title>
 		<link href='https://fonts.googleapis.com/css?family=Cherry Swash' rel='stylesheet'>
 		<link rel ="stylesheet" href="css/carlymonsen.css"/>
+		<script type="text/javascript" src="javascript/slides.js"></script>
 <style>
 body {
     font-family: 'Cherry Swash';font-size: 22px;
@@ -23,7 +24,7 @@ body {
 	</header>
 
 	<main>
-		<script>
+		<!-- <script>
 			var i = 0;//start point
 			var images = [];
 			var time = 3000;
@@ -49,9 +50,25 @@ body {
 			window.onload = changeImg;
 
 
-		</script>
+		</script> -->
 
-		<img name="slide" width="400" height="400">
+		<!-- <img name="slide" width="400" height="400"> -->
+
+		<div class="slideshow-container">
+<div class="mySlides fade">
+<img src='images/image1.jpg' style='width: 100%;' alt="uniform with antlers"/>
+  </div>
+<div class="mySlides fade">
+<img  src='images/image2.jpg' style='width: 100%;' alt="blue in snow"/>
+  </div>
+<div class="mySlides fade">
+<img  src='images/image3.jpg' style='width: 100%;' alt="wolfskin warrior"/>
+  </div>
+  </div>
+<a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+  <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+</div>
+<br/>
 
 	</main>
 
