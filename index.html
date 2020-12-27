@@ -5,7 +5,6 @@
 		<title>Carly Monsen's Website</title>
 		<link href='https://fonts.googleapis.com/css?family=Cherry Swash' rel='stylesheet'>
 		<link rel ="stylesheet" href="css/carlymonsen.css"/>
-<!-- 		<script src="javascript/slides.js"></script> -->
 <style>
 body {
     font-family: 'Cherry Swash';font-size: 22px;
@@ -24,70 +23,7 @@ body {
 	</header>
 
 	<main>
-		<script>
-			var i = 0;//start point
-			var images = [];
-			var time = 3000;
 
-			//Image List//
-			images[0] = 'image1.jpg';
-			images[1] = 'image2.jpg';
-			images[2] = 'image3.jpg';
-
-			//Change Image//
-			function changeImg(){
-				document.slide.src = images[i];
-
-				if(i < images.length - 1){
-					i++;
-				} else {
-					i = 0;
-				}
-
-				setTimeout("changeImg()", time);
-			}
-
-			window.onload = changeImg;
-
-
-		</script>
-
-		<img name="slide" width="400" height="400">
-
-		<!-- <div class="slideshow-container">
-<div class="slideshow-inner">
-  <div class="mySlides fade">
-
-    <img  src='images/image1.jpg' style='width: 100%;' alt="blonde"/>
-  </div>
-
-  <div class="mySlides fade">
-
-    <img  src='images/image2.jpg' style='width: 100%;' alt="blue"/>
-
-  <div class="mySlides fade">
-
-    <img  src='images/image3.jpg' style='width: 100%;' alt="warrior"/>
-  </div>
-  
-  </div>
-
-
-  <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
-  <a class="next" onclick='plusSlides(1)'>&#10095;</a>
-</div>
-<br/>
-
-
-<div style='text-align: center;'>
-  <span class="dot" onclick='currentSlide(1)'></span>
-  <span class="dot" onclick='currentSlide(2)'></span>
-  <span class="dot" onclick='currentSlide(3)'></span>
-  <span class="dot" onclick='currentSlide(4)'></span>
-</div>
-
-</div></span>
-</div> -->
 
 	</main>
 
