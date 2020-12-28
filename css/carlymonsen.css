@@ -6,13 +6,11 @@ body {
 }
 .title {
   float: left;
-
 }
 
 .topnav {
 	overflow: hidden;
 	background-color: #CCFFEE;
-  padding-bottom: 20px;
 }
 
 .topnav a {
@@ -33,12 +31,13 @@ body {
     max-width: 400px;
     position: relative;
     margin: auto
+    padding-top: 10px;
 }
 
 .mySlides {
     display: none;
-  height: 60%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
      
 }
 
