@@ -1,27 +1,40 @@
 /*---styles---*/
 
 body {
-  background-color: #FFFAF0;
+  background-color: #F2E5D2
+;
   color: #bf935a;
   margin-left: 0px;
   margin-right: 0px;
 
 }
- html, body {
+/*  html, body {
   overflow-x: hidden;
  }
 
 html, header {
   /* also subtract section padding (1.5rem) */
-  margin: 0 -601.5rem;
+/*   margin: 0 -601.5rem; */
   /* add back section padding (1.5rem) */
-  padding: 0.25rem 1.5rem;
-  background: #ccffee;
+/*   padding: 0.25rem 1.5rem;
+  background: #ccffee; */
   /* border has to be solid, not RGBa */
   /* 9600px or equiv (600rem = 9600/16) */
-  border-left: 600rem solid #ccffee;
-  border-right: 600rem solid #ccffee;
+/*   border-left: 600rem solid #ccffee;
+  border-right: 600rem solid #ccffee; */
 
+} */
+
+p {
+  margin: 30px;
+  align: left;
+  padding: 10px;
+}
+
+.content {
+ background-color: #fffaf0;
+ padding: 25px;
+ margin: 25px;
 }
 
 .gap {
@@ -58,7 +71,7 @@ html, header {
 }
 
 .slideshow-container {
-    max-width: 400px;
+    max-width: 800px;
     position: relative;
     margin: auto
 }
@@ -78,7 +91,7 @@ html, header {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #222428;
+    color: #bf935a;
     font-weight: bold;
     font-size: 30px;
     transition: .6s ease;
@@ -97,8 +110,8 @@ html, header {
 
 .prev:hover,
 .next:hover {
-    color: #f2f2f2;
-    background-color: rgba(0, 0, 0, 0.8)
+    color: #fffaf0;
+    background-color: #bf935a;
 }
 
 .text {
@@ -126,7 +139,7 @@ html, header {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #DEC4A2;
     border-radius: 50%;
     display: inline-block;
     transition: background-color .6s ease
@@ -134,5 +147,5 @@ html, header {
 
 .active,
 .dot:hover {
-    background-color: #717171
+    background-color: #bf935a
 }
