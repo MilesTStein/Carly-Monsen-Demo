@@ -1,12 +1,9 @@
 /*---styles---*/
 
 body {
-  background-color: #F2E5D2
-;
+background-color: #F2E5D2;
   color: #bf935a;
-  margin-left: 0px;
-  margin-right: 0px;
-
+  margin: 0px 30px 0px 30px;
 }
 /*  html, body {
   overflow-x: hidden;
@@ -27,14 +24,23 @@ html, header {
 
 p {
   margin: 30px;
-  align: left;
+  text-align: left;
   padding: 10px;
 }
 
-.content {
+.content-wrapper {
  background-color: #fffaf0;
- padding: 25px;
- margin: 25px;
+ padding-top: 30px;
+ padding-bottom: 15px;
+ margin-left: 30px;
+ margin-right: 30px;
+}
+
+.content {
+  padding-top: 25px;
+ padding-bottom: 15px;
+ margin-left: 50px;
+ margin-right: 50px;
 }
 
 .gap {
