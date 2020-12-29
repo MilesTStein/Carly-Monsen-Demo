@@ -6,6 +6,7 @@
 
 .mySlides {
     display: none;
+  margin: auto;
   height: 400px;
   border: solid 1px black;
      
