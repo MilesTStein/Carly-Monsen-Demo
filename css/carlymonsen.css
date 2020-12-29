@@ -20,6 +20,21 @@ header {
   background-color: #ccffee;
 }
 
+.slide-wrapper {
+  position: relative;
+}
+
+.slide-image-text {
+  font-size: 50px;
+  color: white;
+  background-color:hsla(0, 0%, 0%, 0.3);
+  width: 655px;
+  padding: 10px;
+ position:absolute;
+ bottom: 60px;
+ left: px;
+}
+
 .content-wrapper {
  background-color: #fffaf0;
  padding-bottom: 15px;
@@ -43,8 +58,6 @@ header {
 
 .topnav {
   overflow: hidden;
-  
- 
 }
 
 .topnav a {
