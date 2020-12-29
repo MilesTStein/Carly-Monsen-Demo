@@ -22,6 +22,10 @@ html, header {
 
 } */
 
+main {
+  margin-top: 30px;
+}
+
 p {
   margin: 30px;
   text-align: left;
